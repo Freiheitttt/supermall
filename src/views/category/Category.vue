@@ -134,11 +134,11 @@
       this.scroll.on('scroll', (position) => {
         console.log(position);
       })
-      this.scroll.on('pullingUp'), () => {
+      this.scroll.on('pullingUp', () => {
         console.log('上拉加载更多');
         setTimeout(() => {
         }, 2000)
-      }
+      })
     },
     methods: {
       btnClick() {
